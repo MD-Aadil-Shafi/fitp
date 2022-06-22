@@ -2,7 +2,7 @@ import React from 'react'
 
 const Sttore = () => {
     return (
-        <div className='container my-5' style={{height:'70vh'}}>
+        <div className='container my-5' style={{minHeight:'70vh'}}>
             <h1 className='fw-light mb-0'>Stores</h1>
             <hr></hr>
             {/* accordian */}

@@ -57,4 +57,11 @@ color: white;
             transform: translateX(-50%);
         }
     }
+    @media (max-width:420px){
+        .para-img{
+            width: 100px;
+            bottom: 120px;
+            right: 10px;
+        }
+    }
 }
