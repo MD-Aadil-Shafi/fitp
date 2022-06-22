@@ -1,5 +1,17 @@
+:root{
+  --dark__pink:#c60f7b;
+  --light__pink:#f90093;
+  --light__grey:#e5ece9;
+  --light__brown:#d6d1cd;
+  --dark__grey:#969a97;
+  --dark__peach:#8BA185;
+}
+
+
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

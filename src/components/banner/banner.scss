@@ -1,0 +1,60 @@
+.banner{
+    height: 500px;
+    background-image: url('https://images.unsplash.com/photo-1503220317375-aaad61436b1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .banner__title{
+        margin-top: 100px;
+        color: #fff;
+        text-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
+    }
+    .btn-banner-search{
+        background-color: var(--light__brown);
+        font-weight: bold;
+        color: var(--dark__grey);
+        transition: 0.5s ease;
+    }
+    .btn-banner-search:hover{
+        text-shadow: 0 0 1px black;
+    }
+    .btn-banner-work{
+        margin-top: 120px;
+        background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+color: white;
+    }
+
+    .para-img{
+        position: absolute;
+        width: 140px;
+        right: 50px;
+        bottom: 80px;
+        opacity: 0.6;
+        transition: all 0.5s;
+    }
+    .para-img:hover{
+        transform: rotate3d(1, 1, 1, 45deg);
+    }
+
+    @media (max-width:947px){
+        .button-work-div{
+            min-width: 160px;
+        }
+    }
+    @media (max-width:768px){
+        // .button-work-div{
+        //     min-width: 160px;
+        // }
+        .btn-banner-work{
+            margin-top: 50px;
+            margin-left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}
